@@ -4,3 +4,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.general-container {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+header .options-container {
+    line-height: 80px;
+}
+
+.options-container select {
+    margin: 0 3px;
+    width: 150px;
+}
+
+#start-btn {
+    padding: 0 2rem;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 130px);
+    background-color: #7fffd4;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+}
