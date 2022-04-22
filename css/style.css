@@ -65,13 +65,27 @@ main {
     font-weight: bold;
 }
 
-.box-easy {
-    width: calc(100%/10);
-    height: calc(100%/10);
+.box {
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.easy-mode {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.hard-mode {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.crazy-mode {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 footer {
