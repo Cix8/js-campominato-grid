@@ -40,6 +40,23 @@ main {
     width: 100%;
     height: calc(100% - 130px);
     background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-easy {
+    width: calc(100%/10);
+    height: calc(100%/10);
+    border: 1px solid white;
 }
 
 footer {
